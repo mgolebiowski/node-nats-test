@@ -11,8 +11,11 @@
   "license": "MIT",
   "dependencies": {
     "@types/node": "^10.5.2",
+    "@types/sequelize": "^4.27.23",
     "events": "^3.0.0",
     "nats": "^1.0.0",
+    "pg": "^7.4.3",
+    "sequelize": "^4.38.0",
     "tls": "^0.0.1",
     "typescript": "^2.9.2"
   },

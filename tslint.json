@@ -9,7 +9,9 @@
         "options": [80]
       },
       "semicolon": [true, "always"],
-      "no-console": false
+      "no-console": false,
+      "trailing-comma": false,
+      "object-literal-sort-keys": false
     },
     "rulesDirectory": []
 }
