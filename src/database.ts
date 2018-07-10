@@ -7,6 +7,7 @@ export const sequelize = new Sequelize(
   dbConfig.password,
   {
     dialect: "postgres",
+    logging: false
   }
 );
 

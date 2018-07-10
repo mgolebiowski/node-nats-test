@@ -20,6 +20,7 @@
     "typescript": "^2.9.2"
   },
   "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.26",
     "tslint": "^5.10.0"
   }
 }

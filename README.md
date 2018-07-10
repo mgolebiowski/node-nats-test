@@ -23,9 +23,24 @@ To build src files:
 $ yarn run build
 ```
 
-Then run broadcaster and receiver:
+You need to run [NATS server](https://nats.io/documentation/server/gnatsd-intro/)
+```
+$ ./path/to/gnatsd --addr 127.0.0.1 --port 4222
+```
+
+Run application
 
 ```
-$ node dist/s1.js
-$ node dist/s2.js
+$ node dist/communcator.js my_id second_id
+```
+
+If you want to talk to yourself just run two insances and swap ids:
+```
+$ node dist/communcator.js foo bar
+$ node dist/communcator.js bar foo
+```
+
+To run logger with database:
+```
+$ node dist/logger.js
 ```
